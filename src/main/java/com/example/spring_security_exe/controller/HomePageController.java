@@ -20,6 +20,9 @@ public class HomePageController {
     public HomePageController(WelcomeMessageService welcomeMessageService) {
         this.welcomeMessageService = welcomeMessageService;
     }
+/*
+standardowy endpoint zwracający widok
+ */
 
     //    @GetMapping(value = "/")
 //    public String getHomePage() {
@@ -30,6 +33,7 @@ public class HomePageController {
 /*    Dostanie się z poziomu kontrolera do kontekstu bezpieczeństwa (czyli do informacji o zalogownaym użytkowniku) i
       przekazanie tych danych do warstwy widoku wykorzystując wstrzyknięcie obiektu Authentication
 */
+
 //    @GetMapping(value = "/")
 //    public String homePage(Authentication authentication, Model model) {
 //        model.addAttribute("username", authentication.getName());
