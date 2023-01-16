@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Security</title>
+</head>
+<body>
+        <h1>Welcome in our site!</h1>
+        <h3>Hello Spring Boot</h3>
+<!--        dla endpointu z kontrolera do którego jest wstrzykiwany context-->
+        <h4 th:text="|Heeelo ${username}!|">Hello Jan!</h4>
+<!--        <h2 th:text="${welcomeMassage}">Hello someone!</h2>-->
+
+</body>
+</html>
